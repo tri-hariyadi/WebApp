@@ -9,11 +9,13 @@ npm install
 ```
 
 * Run the tailwindcss CLI tool to build CSS
-```sh
-**For production mode(Optimize and minify output CSS):**
-npm run build-style
 
+**For production mode(Optimize and minify output CSS):**
+```sh
+npm run build-style
+```
 **For development mode:**
+```sh
 npm run dev-style
 ```
 
@@ -21,7 +23,7 @@ npm run dev-style
 
 # Preview
 ### Home Page
-<img src="https://github.com/tri-hariyadi/ecommerce-app/blob/master/screenshot/Screenshot%202024-10-11%20at%2013.43.41.png" height="600" />
+<img src="https://github.com/tri-hariyadi/WebApp/blob/master/preview/home_page.png" width="100%" />
 
 ### Features Popup
-<img src="https://github.com/tri-hariyadi/ecommerce-app/blob/master/screenshot/Screenshot%202024-10-11%20at%2013.43.41.png" height="600" />
+<img src="https://github.com/tri-hariyadi/WebApp/blob/master/preview/feature_popup.png" width="100%" />
