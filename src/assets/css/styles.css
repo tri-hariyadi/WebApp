@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: Poppins;
+  --font-poppins-bold-italic: PoppinsBoldItalic;
+  --font-poppins-bold: PoppinsBold;
+  --font-poppins-medium: PoppinsMedium;
+  --font-inter-black: InterBlack;
+  --color-header: #12CE15;
+  --color-body: #000435;
+  --color-yellow-300: #F4F40F;
+  --color-yellow-400: #FCC936;
+  --color-lemon-500: #808120;
+  --color-lemon-400: #CEC727;
+  --color-brown-600: #656537;
+  --color-gold-600: #B2880F;
+  --color-blue-400: #2993FF;
+  --color-blue-500: #0984E3;
+  --color-orange-500: #FF6B00;
+  --color-red-900: #960000;
+  --color-green-400: #35D36C;
+  --color-donker: #0E3B68;
+  --drop-shadow-3xl: rgba(0, 0, 0, .5) 0px 5px 4px;
+  --breakpoint-sm: 600px;
+  --animate-heartbeat: heartbeat 1s ease-in-out infinite;
+
+  @keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+  }
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoppinsBoldItalic';
+  src: url('../fonts/Poppins-BoldItalic.woff2') format('woff2'),
+      url('../fonts/Poppins-BoldItalic.woff') format('woff'),
+      url('../fonts/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoppinsMedium';
+  src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterBlack';
+  src: url("../fonts/Inter_18pt-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.text-stroke {
+  background-image: linear-gradient(45deg, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 10px;
+}
